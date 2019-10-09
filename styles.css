@@ -1,0 +1,26 @@
+/*Q2-1*/
+.name {
+  text-align: center;
+  background-color: navy;
+  color: white;
+}
+
+/*Q2-4*/
+.helicopter {
+  height: 50%;
+}
+
+/*Q2-3*/
+.column {
+  float: left;
+  width: 50%;
+}
+
+/*Q2-5*/
+.responsibilities {
+  text-align: left;
+}
+
+.history {
+  column-count: 2;
+}
