@@ -32,7 +32,7 @@
         .then(data => {
 
           const htmlHeader = document.querySelector('.header');
-          const chosenRoute = data.find(route => route.route_id === '104'); // they can pick any route number
+          const chosenRoute = data.find(route => route.route_id === '104');
           const newHeader = `UMD Bus Route ${chosenRoute.route_id} ${chosenRoute.title}`;
 
           htmlHeader.innerText = newHeader;
@@ -53,7 +53,7 @@
           });
 
 
-          const chosenRoute = routeAndTitleArray.find(f => f.includes('104')); // they can pick any route number
+          const chosenRoute = routeAndTitleArray.find(f => f.includes('104'));
           const newHeader = `UMD Bus Route ${chosenRoute}`;
           document.querySelector('.header').innerText = newHeader;
 
